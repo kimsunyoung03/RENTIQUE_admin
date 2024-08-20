@@ -156,20 +156,20 @@ $('.adm_nav_depth1').click(function() {
     <p class="title">상품관리 / 상품수정 </p>
 <article>
     <form id="product_add_form" class="board">
+        <label> 
+            <p class="label_name required">상품코드</p>
+            <input type="text" readonly value="K08877254" required>
+        </label>
         <p class="label_name required">소유주</p>
         <div class="label_wrap">
             <label>
                 <select>
-                    <option>선택</option>
-                    <option>선택</option>
-                    <option>선택</option>
+                    <option>쉐어백</option>
                 </select>
             </label>
             <label>
                 <select class="w-100">
-                    <option>위탁신청 승인 리스트 선택</option>
-                    <option>선택</option>
-                    <option>선택</option>
+                    <option>SH8877254 ㅣ 블랙 퀴르 트리오페 오벌 라지 크로스백</option>
                 </select>
             </label>
         </div>
@@ -177,23 +177,17 @@ $('.adm_nav_depth1').click(function() {
         <div class="label_wrap">
             <label>
                 <select>
-                    <option>선택</option>
-                    <option>선택</option>
-                    <option>선택</option>
+                    <option>여성</option>
                 </select>
             </label>
             <label>
                 <select>
-                    <option>선택</option>
-                    <option>선택</option>
-                    <option>선택</option>
+                    <option>가방</option>
                 </select>
             </label>
             <label>
                 <select>
-                    <option>선택</option>
-                    <option>선택</option>
-                    <option>선택</option>
+                    <option>크로스백</option>
                 </select>
             </label>
         </div>
@@ -201,17 +195,15 @@ $('.adm_nav_depth1').click(function() {
         <div class="label_wrap">
             <label>
                 <select class="w-100">
-                    <option>브랜드명을 선택해 주세요.</option>
-                    <option>선택</option>
-                    <option>선택</option>
+                    <option>셀린느</option>
                 </select>
             </label>
             <label>
-                <input type="text" required placeholder="상품명을 입력해주세요.">
+                <input type="text" required value="블랙 퀴르 트리오페 오벌 라지 크로스백    ">
             </label>
         </div>
-        <label>
-            <p class="label_name required">일렌탈가</p>
+        <label> 
+            <p class="label_name required">일 렌탈가</p>
             <input type="text" required>
         </label>
         <p class="label_name mt_20 required">할인설정</p>
@@ -223,7 +215,7 @@ $('.adm_nav_depth1').click(function() {
             <p class="comment">* 할인설정을 [설정안함]으로 했을 경우 일렌탈가격 입니다.</p>
             <p class="comment">* 할인설정을 [설정함]으로 했을 경우 공급가*할인율=할인적용가 입니다.</p>
         </div>
-        <div class="label_wrap mt_10">
+        <div class="label_wrap mt_10"> 
             <label>
                 <p class="label_name required">공급가</p>
                 <input type="text" required>
@@ -293,7 +285,7 @@ $('.adm_nav_depth1').click(function() {
         </div>
         <p class="comment">* 1000×1000 px</p>
         <p class="comment">* jpg, png 파일만 등록가능</p>
-        <p class="label_name mt_40">상품이미지</p>
+        <p class="label_name mt_40">크기/무게, 최근상태 상품 이미지 </p>
         <div class="imgfile_wrap mt_15">
             <div>
                 <p class="label_name2">이미지1</p>
@@ -355,7 +347,7 @@ $('.adm_nav_depth1').click(function() {
         <p class="comment"> * 1000×1000 px</p>
         <p class="comment"> * jpg, png 파일만 등록가능</p>
         
-        <p class="label_name mt_40">상세설명</p>
+        <p class="label_name mt_40 required">상세설명</p>
         <div id="content"></div>
         <script>
             const editor = new toastui.Editor({
@@ -486,7 +478,6 @@ $('.adm_nav_depth1').click(function() {
             <p class="label_name2">상품별 배송비</p>
             <ul class="filter_select3 mb_20" id="deliveryFee">
                 <li data-target="01" class="on"><label><input type="hidden" name="delivery_fee" value="무료" checked>무료</label></li>
-                <li data-target="02"><label><input type="hidden" name="delivery_fee" value="조건부 무료" >조건부 무료</label></li>
                 <li data-target="03"><label><input type="hidden" name="delivery_fee" value="유료" >유료</label></li>
             </ul>
             <!--배송비 무료-->
@@ -539,7 +530,7 @@ $('.adm_nav_depth1').click(function() {
         <div class="btn_area btm mt_40">
             <button type="button">목록</button>
             <button type="submit">수정</button>
-            <button type="submit">삭제</button>
+            <button type="button">삭제</button>
         </div>
     </article>
 </section>

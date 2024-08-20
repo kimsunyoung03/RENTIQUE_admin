@@ -161,15 +161,11 @@ $('.adm_nav_depth1').click(function() {
             <label>
                 <select>
                     <option>선택</option>
-                    <option>선택</option>
-                    <option>선택</option>
                 </select>
             </label>
             <label>
                 <select class="w-100">
                     <option>위탁신청 승인 리스트 선택</option>
-                    <option>선택</option>
-                    <option>선택</option>
                 </select>
             </label>
         </div>
@@ -177,41 +173,33 @@ $('.adm_nav_depth1').click(function() {
         <div class="label_wrap">
             <label>
                 <select>
-                    <option>선택</option>
-                    <option>선택</option>
-                    <option>선택</option>
+                    <option>대분류</option>
                 </select>
             </label>
             <label>
                 <select>
-                    <option>선택</option>
-                    <option>선택</option>
-                    <option>선택</option>
+                    <option>중분류</option>
                 </select>
             </label>
             <label>
                 <select>
-                    <option>선택</option>
-                    <option>선택</option>
-                    <option>선택</option>
+                    <option>소분류</option>
                 </select>
             </label>
         </div>
         <p class="label_name required mt_20">상품정보</p>
         <div class="label_wrap">
-            <label>
+            <label style="width:380px">
                 <select class="w-100">
                     <option>브랜드명을 선택해 주세요.</option>
-                    <option>선택</option>
-                    <option>선택</option>
                 </select>
             </label>
-            <label>
-                <input type="text" required placeholder="상품명을 입력해주세요.">
+            <labe style="width:380px"l>
+                <input class="w-100" type="text" required placeholder="상품명을 입력해주세요.">
             </label>
         </div>
-        <label>
-            <p class="label_name required">일렌탈가</p>
+        <label> 
+            <p class="label_name required">일 렌탈가</p>
             <input type="text" required>
         </label>
         <p class="label_name mt_20 required">할인설정</p>
@@ -293,7 +281,7 @@ $('.adm_nav_depth1').click(function() {
         </div>
         <p class="comment">* 1000×1000 px</p>
         <p class="comment">* jpg, png 파일만 등록가능</p>
-        <p class="label_name mt_40">상품이미지</p>
+        <p class="label_name mt_40">크기/무게, 최근상태 상품 이미지 </p>
         <div class="imgfile_wrap mt_15">
             <div>
                 <p class="label_name2">이미지1</p>
@@ -355,7 +343,7 @@ $('.adm_nav_depth1').click(function() {
         <p class="comment"> * 1000×1000 px</p>
         <p class="comment"> * jpg, png 파일만 등록가능</p>
         
-        <p class="label_name mt_40">상세설명</p>
+        <p class="label_name mt_40 required">상세설명</p>
         <div id="content"></div>
         <script>
             const editor = new toastui.Editor({
@@ -453,7 +441,7 @@ $('.adm_nav_depth1').click(function() {
             </table>
         </div>
         <!--상품노출 끝-->
-        <p class="label_name mt_40">판매기간 설정</p> 
+        <p class="label_name mt_40">판매기간 설정</p>
         <ul class="filter_select3 mb_20" id="period">
             <li data-target="01" class="on"><label><input type="hidden" name="period_method" checked>설정안함</label></li>
             <li data-target="02"><label><input type="hidden" name="period_method">설정</label></li>
@@ -486,7 +474,6 @@ $('.adm_nav_depth1').click(function() {
             <p class="label_name2">상품별 배송비</p>
             <ul class="filter_select3 mb_20" id="deliveryFee">
                 <li data-target="01" class="on"><label><input type="hidden" name="delivery_fee" value="무료" checked>무료</label></li>
-                <li data-target="02"><label><input type="hidden" name="delivery_fee" value="조건부 무료" >조건부 무료</label></li>
                 <li data-target="03"><label><input type="hidden" name="delivery_fee" value="유료" >유료</label></li>
             </ul>
             <!--배송비 무료-->
