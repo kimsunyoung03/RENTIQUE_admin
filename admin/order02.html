@@ -318,7 +318,7 @@ $('.adm_nav_depth1').click(function() {
                 <th>배송비</th>
                 <td>0</td>
                 <th>쿠폰</th>
-                <td><a onclick="openPopup2('coupon.html')">0</a></td>
+                <td><a onclick="openPopup2('coupon.html')">1</a></td>
             </tr>
             <tr>
                 <th>적립금</th>
@@ -360,7 +360,10 @@ $('.adm_nav_depth1').click(function() {
         </table>
         <p class="title">관리자 메모</p>
         <input type="text">
-        <button onclick="close_modal()"> 닫기</button>
+        <div class="btn_area">
+            <button onclick="close_modal()"> 목록</button>
+            <button type="submit">저장</button>
+        </div>
     </div>
 </article>
 

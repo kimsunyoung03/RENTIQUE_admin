@@ -153,7 +153,7 @@ $('.adm_nav_depth1').click(function() {
 <!----======== 관리자 레이아웃 상단 끝 ========---->
 <!----======== 내용부분 ========---->
 <section id="admin_contents_wrap">
-    <p class="title">주문관리 / 주문관리 </p>
+    <p class="title">주문관리 / 렌트관리 </p>
     <article class="board">
         <div class="filter_wrap">
             <div>
@@ -250,6 +250,7 @@ $('.adm_nav_depth1').click(function() {
                         <th width="160px">수거 택배사</th>
                         <th width="220px">수거 송장번호</th>
                         <th width="220px">구매자 ID</th>
+                        <th width="220px">구매자명</th>
                         <th width="220px">구매자 연락처</th>
                         <th width="120px">수령인</th>
                         <th width="220px">수령인 연락처</th>
@@ -291,6 +292,7 @@ $('.adm_nav_depth1').click(function() {
                             <input type="text" disabled>
                         </td>
                         <td>dmonster@gmail.com</td>
+                        <td>홍길동</td>
                         <td>010-1234-5678</td>
                         <td>홍길동</td>
                         <td>010-1234-5678</td>
@@ -331,6 +333,7 @@ $('.adm_nav_depth1').click(function() {
                             <input type="text" disabled>
                         </td>
                         <td>dmonster@gmail.com</td>
+                        <td>홍길동</td>
                         <td>010-1234-5678</td>
                         <td>홍길동</td>
                         <td>010-1234-5678</td>
@@ -371,6 +374,7 @@ $('.adm_nav_depth1').click(function() {
                             <input type="text">
                         </td>
                         <td>dmonster@gmail.com</td>
+                        <td>홍길동</td>
                         <td>010-1234-5678</td>
                         <td>홍길동</td>
                         <td>010-1234-5678</td>
@@ -404,6 +408,7 @@ $('.adm_nav_depth1').click(function() {
                             <input type="text" disabled >
                         </td>
                         <td>dmonster@gmail.com</td>
+                        <td>홍길동</td>
                         <td>010-1234-5678</td>
                         <td>홍길동</td>
                         <td>010-1234-5678</td>
@@ -498,7 +503,7 @@ $('.adm_nav_depth1').click(function() {
                 <th>배송비</th>
                 <td>0</td>
                 <th>쿠폰</th>
-                <td>0</td>
+                <td><a onclick="openPopup2('coupon.html')">1</a></td>
             </tr>
             <tr>
                 <th>적립금</th>
@@ -557,7 +562,7 @@ $('.adm_nav_depth1').click(function() {
                 <td colspan="3">없음</td>
             </tr>
         </table>
-        <button onclick="close_modal()"> 닫기</button>
+        <button onclick="close_modal()"> 목록</button>
     </div>
 </article>
 
