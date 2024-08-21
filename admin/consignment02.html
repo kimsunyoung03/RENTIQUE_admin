@@ -259,7 +259,6 @@ $('.adm_nav_depth1').click(function() {
     <div class="board">
         <a class="circle_btn"  onclick="close_modal()"><i class="fa fa-times" aria-hidden="true"></i></a>
         <p class="title">정산내역 상세</p>
-        <div class="over_table">
         <table class="table_defalt">
             <thead>
                 <tr>
@@ -267,19 +266,8 @@ $('.adm_nav_depth1').click(function() {
                     <th width="220px">위탁자 정보</th>
                     <th width="120px">상태구분</th>
                     <th width="160px">브랜드</th>
-                    <th width="320px">모델 및 상품명</th>
+                    <th>모델 및 상품명</th>
                     <th width="160px">위탁계약기간</th>
-                    <th width="160px">위탁상태</th>
-                    <th width="80px">매출월</th>
-                    <th width="160px">일렌트<br/>확정가</th>
-                    <th width="80px">렌트<br/>이용</th>
-                    <th width="160px">총 렌트 금액</th>
-                    <th width="160px">쿠폰사용금</th>
-                    <th width="160px">실 결제금액</th>
-                    <th width="160px">거래수수료<br/>운용비용</th>
-                    <th width="160px">정산<br/>예정금액</th>
-                    <th width="140px">정산상태</th>
-                    <th width="180px">정산완료일</th>
                 </tr>
             </thead>
             <tbody>
@@ -290,6 +278,24 @@ $('.adm_nav_depth1').click(function() {
                     <td>CLEINE</td>
                     <td>블랙 퀴르 트리오페 오벌 라지 크로스백</td>
                     <td>6개월</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table_defalt">
+            <thead>
+                <tr>
+                    <th width="160px">위탁상태</th>
+                    <th width="80px">매출월</th>
+                    <th width="160px">일렌트<br/>확정가</th>
+                    <th width="80px">렌트<br/>이용</th>
+                    <th width="160px">총 렌트 금액</th>
+                    <th>쿠폰사용금</th>
+                    <th width="160px">실 결제금액</th>
+                    <th width="160px">거래수수료<br/>운용비용</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
                     <td>배송확인</td>
                     <td>6월</td>
                     <td>25,000원</td>
@@ -298,15 +304,27 @@ $('.adm_nav_depth1').click(function() {
                     <td>50,000원</td>
                     <td>500,000원</td>
                     <td>29.8%</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table_defalt  w-100">
+            <thead>
+                <tr>
+                    <th width="160px">정산<br/>예정금액</th>
+                    <th width="140px">정산상태</th>
+                    <th width="180px">정산완료일</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
                     <td>386,100원</td>
                     <td>정산완료</td>
                     <td>-</td>
                 </tr>
             </tbody>
         </table>
-    </div>
     <p class="title">정산내역 상세</p>
-        <table class="table_defalt">
+        <table class="table_defalt" >
             <tr>
                 <th>예금주</th>
                 <td>홍길동</td>
